@@ -23,5 +23,6 @@ public static void main(String[] args) {
     // this is to clear the bit changee it to zero
     int clear = notbitmask & n;
     System.out.println("this is used to change the bit from one to zero  " + clear);
+    // update is similar as clear and set
    
 } }
