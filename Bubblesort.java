@@ -7,10 +7,10 @@ public class bubblesort {
         int a[] = { 10,4,6,5,7,11};
         for( i =0 ; i< a.length-1;i++){
             for(int j=0 ;j<a.length-1-i ;j++){
-                if(a[i]>a[j]){
-                    temp =a[i];
-                    a[i] = a[j];
-                    a[j] = temp ;
+                if(a[j]>a[j+1]){
+                    temp =a[j];
+                    a[j] = a[j+1];
+                    a[j+1] = temp ;
 
                 }
             }
